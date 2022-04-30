@@ -7828,7 +7828,7 @@
 # text_en = In 2007 the most successful film was El Greco, directed by Yannis Smaragdis.
 1	Vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	4	obl	4:obl	_
 2	2007	2007	NUM	_	NumType=Card	1	nummod	1:nummod	_
-3	menestynein	menestyä	VERB	_	Case=Nom|Degree=Sup|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	acl	4:acl	_
+3	menestynein	menestynyt	ADJ	_	Case=Nom|Degree=Sup|Number=Sing	4	amod	4:amod	_
 4	elokuva	elo#kuva	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
 5	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 6	Yannis	Yannis	PROPN	_	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
@@ -13883,7 +13883,7 @@
 7	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 8	yksi	yksi	NUM	_	Case=Nom|Number=Sing|NumType=Card	0	root	0:root	_
 9	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	10:nmod:poss	_
-10	myydyimmistään	myydä	VERB	_	Case=Ela|Degree=Sup|Number=Plur|PartForm=Past|Person[psor]=3|VerbForm=Part|Voice=Pass	8	nmod	8:nmod	SpaceAfter=No
+10	myydyimmistään	myyty	ADJ	_	Case=Ela|Degree=Sup|Number=Plur|Person[psor]=3	8	nmod	8:nmod	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = w01127096
