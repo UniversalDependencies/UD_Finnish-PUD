@@ -10,12 +10,12 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>15807</tokens><words>15813</words><fused>6</fused></test>
   </size>
-  <lemmas unique="4935" /><!-- ,, ., olla, ja, hän, se, joka, ”, vuosi, että, tämä, ei, kun, voida, mutta -->
+  <lemmas unique="4936" /><!-- ,, ., olla, ja, hän, se, joka, ”, vuosi, että, tämä, ei, kun, voida, mutta -->
   <forms unique="7576" /><!-- ,, ., ja, on, ”, että, oli, hän, sen, vuonna, ei, joka, hänen, se, kun -->
   <fusions unique="5" /><!-- ettei, ellei, etteivät, etten, miksei -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">1139</tag><!-- suuri, uusi, ensimmäinen, korkea, viimeinen, oma, usea, hyvä, pieni, poliittinen -->
+    <tag name="ADJ">1142</tag><!-- suuri, uusi, ensimmäinen, korkea, viimeinen, oma, usea, hyvä, pieni, poliittinen -->
     <tag name="ADP">319</tag><!-- jälkeen, kanssa, mukaan, välillä, mennessä, vastaan, asti, kautta, ennen, kohti -->
     <tag name="ADV">963</tag><!-- myös, vain, enemmän, kuten, noin, kuitenkin, niin, yhä, hyvin, paljon -->
     <tag name="AUX">826</tag><!-- olla, ei, voida, täytyä, pitää, saattaa, aikoa -->
@@ -24,11 +24,11 @@
     <tag name="NOUN">4223</tag><!-- vuosi, aika, alue, osa, maa, ihminen, kaupunki, hallitus, päivä, paikka -->
     <tag name="NUM">387</tag><!-- kaksi, yksi, kolme, neljä, kymmenen, miljoona, kuusi, 10, 3, miljardi -->
     <tag name="PRON">1160</tag><!-- hän, se, joka, tämä, mikä, moni, muu, kaikki, minä, sama -->
-    <tag name="PROPN">1505</tag><!-- Kiina, Yhdysvallat, Trump, Ranska, Venäjä, of, Australia, Britannia, Eurooppa, Hong -->
+    <tag name="PROPN">1504</tag><!-- Kiina, Yhdysvallat, Trump, Ranska, Venäjä, of, Australia, Britannia, Eurooppa, Hong -->
     <tag name="PUNCT">2339</tag><!-- ,, ., ”, (, ), -, :, ?, ’, ... -->
     <tag name="SCONJ">311</tag><!-- että, kun, kuin, jos, koska, vaikka, jotta, sillä, kuten, kunnes -->
     <tag name="SYM">14</tag><!-- % -->
-    <tag name="VERB">2017</tag><!-- tulla, sanoa, tehdä, olla, saada, käyttää, pitää, alkaa, johtaa, kertoa -->
+    <tag name="VERB">2015</tag><!-- tulla, sanoa, tehdä, olla, saada, käyttää, pitää, alkaa, johtaa, kertoa -->
     <tag name="X">12</tag><!-- Conseil, a, arms, cena, combined, du, fiction, national, numérique, science -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -58,8 +58,8 @@
     <feat name="Clitic" value="Pa" upos="ADV">1</feat><!-- Siispä -->
     <feat name="Connegative" value="Yes" upos="AUX,VERB">74</feat><!-- ole, pysty, odota, pidä, tiedä, voi, auta, eroaisi, haittaa, haluaisi -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">35</feat><!-- korkeampi, Afrikkalaisempaa, Myöhempinä, Suuremmilla, epätavallisempiin, harmonisemmaksi, huolestuttavamman, huolestuttavammat, hyödyllisempänä, järkevämmäksi -->
-    <feat name="Degree" value="Pos" upos="ADJ,AUX,PROPN,VERB">1426</feat><!-- ollut, uuden, suuri, uusia, useita, olleet, lukuisia, olevan, pienen, tullut -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADV,VERB">64</feat><!-- suurin, suurimman, suurimmalla, tunnetuin, viimeisin, korkeimman, korkeimmassa, korkein, parhaassa, Kaukaisimmassa -->
+    <feat name="Degree" value="Pos" upos="ADJ">929</feat><!-- uuden, suuri, uusia, useita, lukuisia, pienen, erilaisia, korkean, mahdollista, poliittisen -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">64</feat><!-- suurin, suurimman, suurimmalla, tunnetuin, viimeisin, korkeimman, korkeimmassa, korkein, parhaassa, Kaukaisimmassa -->
     <feat name="Derivation" value="Inen" upos="ADJ,NOUN">325</feat><!-- ensimmäinen, ensimmäisen, ensimmäistä, poliittisen, viimeinen, viimeisen, Jälkimmäinen, kaltaisten, nykyisen, poliittiset -->
     <feat name="Derivation" value="Inen,Ttain" upos="ADJ">5</feat><!-- Vuosittainen, kausittainen, päivittäisen, sivuttaista, Äskettäisessä -->
     <feat name="Derivation" value="Inen,Vs" upos="NOUN">14</feat><!-- kokonaisuutena, avarakatseisuutta, heroiiniriippuvuutensa, julkisuudessa, löyhämoraalisuutenaan, ominaisuus, piioksidipitoisuuden, salaisuutensa, samankaltaisuuksia, suolapitoisuuden -->
@@ -93,7 +93,7 @@
     <feat name="NumType" value="Card" upos="NUM,PUNCT">386</feat><!-- kaksi, kolme, kahden, yksi, neljä, miljoonaa, 10, 3, 1492, 2010 -->
     <feat name="NumType" value="Ord" upos="ADJ,NUM,PROPN">86</feat><!-- ensimmäinen, ensimmäisen, ensimmäistä, 1., 30., I, toinen, 10., 21., 3. -->
     <feat name="PartForm" value="Agt" upos="VERB">30</feat><!-- havaitsemaan, esittämien, esittämä, hallitsema, hallitseman, ihailemansa, johtama, johtaman, johtamat, johtamien -->
-    <feat name="PartForm" value="Past" upos="AUX,VERB">362</feat><!-- ollut, olleet, tullut, käytetty, saanut, tehty, halunnut, oltu, päättänyt, tehnyt -->
+    <feat name="PartForm" value="Past" upos="AUX,VERB">360</feat><!-- ollut, olleet, tullut, käytetty, saanut, tehty, halunnut, oltu, päättänyt, tehnyt -->
     <feat name="PartForm" value="Pres" upos="AUX,VERB">106</feat><!-- olevan, oleva, olevat, olevaa, liittyvissä, olevansa, sijaitsevan, ympäröivän, alkavaksi, alkavan -->
     <feat name="Person" value="0" upos="AUX,VERB">9</feat><!-- Vaikutti, Voi, haluaa, hämärtää, kävi, pääsee, saa, tulee, täytyy -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">86</feat><!-- en, olemme, emme, meidän, olen, meitä, Luulen, Meillä, meille, minua -->
@@ -115,17 +115,17 @@
     <feat name="Tense" value="Pres" upos="AUX,VERB">874</feat><!-- on, ovat, ole, voi, tulee, sanoo, täytyy, voivat, auttaa, olemme -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">1960</feat><!-- on, oli, ei, ovat, ole, voi, sanoi, olivat, eivät, tulee -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">384</feat><!-- olla, tehdä, liittyen, lukien, olemassa, johtaa, johtuen, käyttämällä, nähdä, palata -->
-    <feat name="VerbForm" value="Part" upos="AUX,VERB">498</feat><!-- ollut, olleet, olevan, tullut, käytetty, oleva, olevat, saanut, tehty, halunnut -->
-    <feat name="Voice" value="Act" upos="AUX,VERB">2432</feat><!-- on, oli, ei, ovat, ollut, sanoi, olivat, voi, eivät, tulee -->
-    <feat name="Voice" value="Pass" upos="AUX,VERB">340</feat><!-- pidetään, rakennettiin, käytettiin, julkaistiin, julistettiin, kerrottiin, käytetty, perustettiin, sanotaan, tehty -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">496</feat><!-- ollut, olleet, olevan, tullut, käytetty, oleva, olevat, saanut, tehty, halunnut -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">2431</feat><!-- on, oli, ei, ovat, ollut, sanoi, olivat, voi, eivät, tulee -->
+    <feat name="Voice" value="Pass" upos="AUX,VERB">339</feat><!-- pidetään, rakennettiin, käytettiin, julkaistiin, julistettiin, kerrottiin, käytetty, perustettiin, sanotaan, tehty -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
-    <dep name="acl">224</dep>
+    <dep name="acl">223</dep>
     <dep name="acl:relcl">227</dep>
     <dep name="advcl">283</dep>
     <dep name="advmod">872</dep>
-    <dep name="amod">909</dep>
+    <dep name="amod">910</dep>
     <dep name="appos">106</dep>
     <dep name="aux">362</dep>
     <dep name="aux:pass">43</dep>
