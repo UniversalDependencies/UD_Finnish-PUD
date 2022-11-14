@@ -128,7 +128,7 @@
 6	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	_
 7	tekee	tehdä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj	SpaceAfter=No
 8	,	,	PUNCT	_	_	15	punct	15:punct	_
-9	se	se	PRON	_	Case=Nom|Number=Sing|PronType=Dem	15	nsubj:cop	15:nsubj:cop	_
+9	se	se	PRON	_	Case=Nom|Number=Sing|PronType=Dem	15	dislocated	15:dislocated	_
 10	-	-	PUNCT	_	_	15	punct	15:punct	_
 11	itse	itse	ADV	_	_	15	advmod	15:advmod	_
 12	asiassa	asia	ADV	_	_	11	fixed	11:fixed	_
