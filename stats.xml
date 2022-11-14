@@ -120,7 +120,7 @@
     <feat name="Voice" value="Pass" upos="AUX,VERB">339</feat><!-- pidetään, rakennettiin, käytettiin, julkaistiin, julistettiin, kerrottiin, käytetty, perustettiin, sanotaan, tehty -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="43">
+  <deps unique="44">
     <dep name="acl">223</dep>
     <dep name="acl:relcl">227</dep>
     <dep name="advcl">283</dep>
@@ -143,6 +143,7 @@
     <dep name="csubj:cop">14</dep>
     <dep name="det">245</dep>
     <dep name="discourse">1</dep>
+    <dep name="dislocated">1</dep>
     <dep name="fixed">30</dep>
     <dep name="flat">48</dep>
     <dep name="flat:foreign">3</dep>
@@ -153,7 +154,7 @@
     <dep name="nmod:gsubj">56</dep>
     <dep name="nmod:poss">966</dep>
     <dep name="nsubj">1104</dep>
-    <dep name="nsubj:cop">372</dep>
+    <dep name="nsubj:cop">371</dep>
     <dep name="nummod">311</dep>
     <dep name="obj">924</dep>
     <dep name="obl">1456</dep>
