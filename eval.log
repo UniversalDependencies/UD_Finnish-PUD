@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Finnish-PUD:
-commit 564497aaeb5d8a14fc36779f8b8f142d0a80c49a
+commit 825356a1c82d56eafaae4f93334a82655a5c6c16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:50:07 2023 +0100
+Date:   Sun May 5 12:13:51 2024 +0200
 Size: counted 15813 of 15813 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.52166477308236.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,9 +25,11 @@ Udapi: found 133 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 15813 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-PUD/fi_pud-ud-test.conllu
+[Line 2348 Sent n01043027 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:samaa:det --> 20:vuonna:advcl)
+[Line 11897 Sent w01084085 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:samana:det --> 7:Sukhothai:advcl)
 [Line 13653 Sent w01122031 Node 11]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 13652 Sent w01122031 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 2
+Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
