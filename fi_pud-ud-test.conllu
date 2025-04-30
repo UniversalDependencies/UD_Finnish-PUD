@@ -2345,7 +2345,7 @@
 17	samaa	sama	PRON	_	Case=Par|Number=Sing|PronType=Ind	18	det	18:det	_
 18	tasoa	taso	NOUN	_	Case=Par|Number=Sing	7	acl:relcl	7:acl:relcl	_
 19	kuin	kuin	SCONJ	_	_	20	mark	20:mark	_
-20	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	17	advcl	17:advcl	_
+20	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	18	advcl	18:advcl	_
 21	2015-2016	2015-2016	NUM	_	NumType=Card	20	nummod	20:nummod	SpaceAfter=No
 22	.	.	PUNCT	_	_	7	punct	7:punct	_
 
@@ -10684,8 +10684,8 @@
 27	,	,	PUNCT	_	_	32	punct	32:punct	_
 28	mitä	mikä	PRON	_	Case=Par|Number=Sing|PronType=Int	32	obj	32:obj	_
 29	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	32	nsubj	32:nsubj	_
-30	itse	itse	PRON	_	Case=Nom|Number=Sing|Reflex=Yes	32	advmod	32:advmod	_
-31	asiassa	asia	NOUN	_	Case=Ine|Number=Sing	30	fixed	30:fixed	_
+30	itse	itse	ADV	_	_	32	advmod	32:advmod	_
+31	asiassa	asiassa	ADV	_	_	30	fixed	30:fixed	_
 32	tarkoitti	tarkoittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	acl:relcl	26:acl:relcl	SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	32:punct	_
 34	kuin	kuin	SCONJ	_	_	37	mark	37:mark	_
@@ -11894,7 +11894,7 @@
 4	samana	sama	PRON	_	Case=Ess|Number=Sing|PronType=Ind	5	det	5:det	_
 5	aikakautena	aika#kausi	NOUN	_	Case=Ess|Number=Sing	3	obl	3:obl	_
 6	kuin	kuin	SCONJ	_	_	7	mark	7:mark	_
-7	Sukhothai	Sukhothai	PROPN	_	Case=Nom|Number=Sing	4	advcl	4:advcl	SpaceAfter=No
+7	Sukhothai	Sukhothai	PROPN	_	Case=Nom|Number=Sing	5	advcl	5:advcl	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = w01084102
