@@ -60,6 +60,7 @@ employ ten-fold cross-validation.
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news wiki
 Lemmas: manual native
 UPOS: manual native
