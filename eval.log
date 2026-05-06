@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Finnish-PUD:
-commit 6e981a5490a075b5766eb45fccb16571f46e7167
-Merge: fa2c5ad 10ed81b
+commit 5c0b6b931d6ed23959d69707f98b247572066c27
+Merge: d8f3284 cdfb74a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'fi_pud'
@@ -25,18 +25,29 @@ Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-PUD/fi_pud-ud-test.conllu
-[Line 19 Sent n01001011]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
-[Line 89 Sent n01002032]: [L3 Warning verbform-fin-without-mood] Finite verb 'En' lacks the 'Mood' feature
-[Line 139 Sent n01002058]: [L3 Warning fixed-without-extpos] Fixed expression 'itse asiassa' does not have the 'ExtPos' feature
-[Line 201 Sent n01003012]: [L3 Warning fixed-without-extpos] Fixed expression 'alun perin' does not have the 'ExtPos' feature
-[Line 420 Sent n01009027]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
-[Line 755 Sent n01017005]: [L3 Warning verbform-fin-without-mood] Finite verb 'eikä' lacks the 'Mood' feature
-[Line 959 Sent n01021007]: [L3 Warning fixed-without-extpos] Fixed expression 'Ikävä kyllä' does not have the 'ExtPos' feature
-[Line 1050 Sent n01022002]: [L3 Warning verbform-fin-without-mood] Finite verb 'eivät' lacks the 'Mood' feature
-[Line 1162 Sent n01022027]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
-[Line 1456 Sent n01027049]: [L3 Warning verbform-fin-without-mood] Finite verb 'eivät' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
-Warnings: 168
+[Line 19 Sent n01001011]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 89 Sent n01002032]: [L3 WARNING verbform-fin-without-mood] Finite verb 'En' lacks the 'Mood' feature
+[Line 139 Sent n01002058]: [L3 WARNING fixed-without-extpos] Fixed expression 'itse asiassa' does not have the 'ExtPos' feature
+[Line 201 Sent n01003012]: [L3 WARNING fixed-without-extpos] Fixed expression 'alun perin' does not have the 'ExtPos' feature
+[Line 420 Sent n01009027]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 755 Sent n01017005]: [L3 WARNING verbform-fin-without-mood] Finite verb 'eikä' lacks the 'Mood' feature
+[Line 959 Sent n01021007]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ikävä kyllä' does not have the 'ExtPos' feature
+[Line 1050 Sent n01022002]: [L3 WARNING verbform-fin-without-mood] Finite verb 'eivät' lacks the 'Mood' feature
+[Line 1162 Sent n01022027]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 1456 Sent n01027049]: [L3 WARNING verbform-fin-without-mood] Finite verb 'eivät' lacks the 'Mood' feature
+[Line 1477 Sent n01028022]: [L3 WARNING fixed-without-extpos] Fixed expression 'hei muuten' does not have the 'ExtPos' feature
+[Line 1611 Sent n01030005]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 1629 Sent n01030006]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 1778 Sent n01033021]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2356 Sent n01043005]: [L3 WARNING fixed-without-extpos] Fixed expression 'niin kutsutun' does not have the 'ExtPos' feature
+[Line 2450 Sent n01043027]: [L3 WARNING fixed-without-extpos] Fixed expression 'suurin piirtein' does not have the 'ExtPos' feature
+[Line 2746 Sent n01049033]: [L3 WARNING fixed-without-extpos] Fixed expression 'alun perin' does not have the 'ExtPos' feature
+[Line 2810 Sent n01050014]: [L3 WARNING fixed-without-extpos] Fixed expression 'yleisesti ottaen' does not have the 'ExtPos' feature
+[Line 3106 Sent n01055047]: [L3 WARNING fixed-without-extpos] Fixed expression 'loppujen lopuksi' does not have the 'ExtPos' feature
+[Line 4209 Sent n01077030]: [L3 WARNING fixed-without-extpos] Fixed expression 'niin sanottuja' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 157
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
