@@ -1818,7 +1818,7 @@
 7	kasvain	kasvain	NOUN	_	Case=Nom|Number=Sing	11	nsubj	11:nsubj	_
 8	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	10:nmod:poss	_
 9	oikeassa	oikea	ADJ	_	Case=Ine|Degree=Pos|Number=Sing	10	amod	10:amod	_
-10	keuhkossaan	keuhko	NOUN	_	Case=Ine|Number=Sing|Person[psor]=3	7	obl	7:obl	_
+10	keuhkossaan	keuhko	NOUN	_	Case=Ine|Number=Sing|Person[psor]=3	7	nmod	7:nmod	_
 11	kasvaa	kasvaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	4:ccomp	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	11:punct	_
 13	ja	ja	CCONJ	_	_	17	cc	17:cc	_
@@ -1920,8 +1920,8 @@
 27	puukottamisesta	puukottaminen	NOUN	_	Case=Ela|Derivation=Minen|Number=Sing	25	obl	25:obl	_
 28	kuoliaaksi	kuoliaaksi	ADV	_	_	27	advmod	27:advmod	_
 29	tämän	tämä	PRON	_	Case=Gen|Number=Sing|PronType=Dem	30	det	30:det	_
-30	lukiossa	lukio	NOUN	_	Case=Ine|Number=Sing	27	obl	27:obl	_
-31	Abbotsfordissa	Abbotsford	PROPN	_	Case=Ine|Number=Sing	27	obl	27:obl	SpaceAfter=No
+30	lukiossa	lukio	NOUN	_	Case=Ine|Number=Sing	27	nmod	27:nmod	_
+31	Abbotsfordissa	Abbotsford	PROPN	_	Case=Ine|Number=Sing	27	nmod	27:nmod	SpaceAfter=No
 32	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = n01035013
@@ -2032,12 +2032,12 @@
 1	Hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
 2	haluaisi	haluta	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	myös	myös	ADV	_	_	2	advmod	2:advmod	_
-4	lisää	lisää	ADV	_	_	5	advmod	5:advmod	_
+4	lisää	lisää	ADV	_	_	2	advmod	2:advmod	_
 5	toimeenpano-	toimeenpano	NOUN	_	Case=Nom|Number=Sing	2	obj	2:obj	_
 6	ja	ja	CCONJ	_	_	7	cc	7:cc	_
 7	tutkimusvaltaa	tutkimus#valta	NOUN	_	Case=Par|Number=Sing	5	conj	5:conj	_
 8	Ontarion	Ontario	PROPN	_	Case=Gen|Number=Sing	9	nmod:poss	9:nmod:poss	_
-9	kiinteistönvälitysneuvostolle	kiinteistön#välitys#neuvosto	NOUN	_	Case=All|Number=Sing	5	obl	5:obl	_
+9	kiinteistönvälitysneuvostolle	kiinteistön#välitys#neuvosto	NOUN	_	Case=All|Number=Sing	2	obl	2:obl	_
 10	(	(	PUNCT	_	_	11	punct	11:punct	SpaceAfter=No
 11	RECO	RECO	PROPN	_	Abbr=Yes|Case=Nom|Number=Sing	9	appos	9:appos	SpaceAfter=No
 12	)	)	PUNCT	_	_	11	punct	11:punct	SpaceAfter=No
@@ -2083,7 +2083,7 @@
 11	ilmasta	ilma	NOUN	_	Case=Ela|Number=Sing	9	obl	9:obl	_
 12	Pekingin	Peking	PROPN	_	Case=Gen|Number=Sing	13	nmod:poss	13:nmod:poss	_
 13	kaltaisissa	kaltainen	ADJ	_	Case=Ine|Degree=Pos|Derivation=Inen|Number=Plur	14	amod	14:amod	_
-14	kaupungeissa	kaupunki	NOUN	_	Case=Ine|Number=Plur	11	obl	11:obl	SpaceAfter=No
+14	kaupungeissa	kaupunki	NOUN	_	Case=Ine|Number=Plur	11	nmod	11:nmod	SpaceAfter=No
 15	,	,	PUNCT	_	_	21	punct	21:punct	_
 16	joissa	joka	PRON	_	Case=Ine|Number=Plur|PronType=Rel	21	obl	21:obl	_
 17	saattaa	saattaa	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	21:aux	_
@@ -3370,7 +3370,7 @@
 3	kritiikki	kritiikki	NOUN	_	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
 4	Clintonista	Clinton	PROPN	_	Case=Ela|Number=Sing	3	nmod	3:nmod	_
 5	presidentin	presidentti	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	6:nmod:poss	_
-6	puolisona	puoliso	NOUN	_	Case=Ess|Number=Sing	3	obl	3:obl	_
+6	puolisona	puoliso	NOUN	_	Case=Ess|Number=Sing	3	nmod	3:nmod	_
 7	muuttui	muuttua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	_
 8	purevammaksi	pureva	ADJ	_	Case=Tra|Degree=Cmp|Number=Sing	7	xcomp	7:xcomp	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	7:punct	_
@@ -3462,7 +3462,7 @@
 6	tehdessään	tehdä	VERB	_	Case=Ine|InfForm=2|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	5	advcl	5:advcl	_
 7	taidetta	taide	NOUN	_	Case=Par|Number=Sing	6	obj	6:obj	_
 8	takapuolten	taka#puoli	NOUN	_	Case=Gen|Number=Plur	9	nmod:gobj	9:nmod:gobj	_
-9	liikuttamisesta	liikuttaminen	NOUN	_	Case=Ela|Derivation=Minen|Number=Sing	7	obl	7:obl	_
+9	liikuttamisesta	liikuttaminen	NOUN	_	Case=Ela|Derivation=Minen|Number=Sing	6	obl	6:obl	_
 10	-	-	PUNCT	_	_	12	punct	12:punct	_
 11	heidän	hän	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	12	nmod:poss	12:nmod:poss	_
 12	pääasiastaan	pää#asia	NOUN	_	Case=Ela|Number=Sing|Person[psor]=3	9	appos	9:appos	SpaceAfter=No
@@ -3586,7 +3586,7 @@
 2	hylkää	hylätä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	ajatuksen	ajatus	NOUN	_	Case=Gen|Number=Sing	2	obj	2:obj	_
 4	taannehtivasta	taannehtiva	ADJ	_	Case=Ela|Degree=Pos|Number=Sing	5	amod	5:amod	_
-5	äänestämisestä	äänestäminen	NOUN	_	Case=Ela|Derivation=Minen|Number=Sing	3	obl	3:obl	_
+5	äänestämisestä	äänestäminen	NOUN	_	Case=Ela|Derivation=Minen|Number=Sing	3	nmod	3:nmod	_
 6	lainaten	lainata	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	2	advcl	2:advcl	_
 7	kahta	kaksi	NUM	_	Case=Par|Number=Sing|NumType=Card	8	nummod	8:nummod	_
 8	tutkijaa	tutkija	NOUN	_	Case=Par|Derivation=Ja|Number=Sing	6	obj	6:obj	SpaceAfter=No
@@ -4838,7 +4838,7 @@
 # text = Rakastan sillä leikkimistä ja etsin aina siihen sopivaa muusaa, koska on niin kiinnostavaa tehdä kokoelma, kun löydän sopivan.
 # text_en = I love to play with that and I am always looking for muses that fit that bill because it is so interesting making a collection when I find one.
 1	Rakastan	rakastaa	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	sillä	se	PRON	_	Case=Ade|Number=Sing|PronType=Dem	3	obl	3:obl	_
+2	sillä	se	PRON	_	Case=Ade|Number=Sing|PronType=Dem	3	nmod	3:nmod	_
 3	leikkimistä	leikkiminen	NOUN	_	Case=Par|Derivation=Minen|Number=Sing	1	obj	1:obj	_
 4	ja	ja	CCONJ	_	_	5	cc	5:cc	_
 5	etsin	etsiä	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
@@ -9655,7 +9655,7 @@
 4	huomattavasti	huomattavasti	ADV	_	Derivation=Sti	3	advmod	3:advmod	_
 5	alueen	alue	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	6:nmod:poss	_
 6	alttiutta	alttius	NOUN	_	Case=Par|Number=Sing	3	obj	3:obj	_
-7	luonnonkatastrofeille	luonnon#katastrofi	NOUN	_	Case=All|Number=Plur	6	obl	6:obl	SpaceAfter=No
+7	luonnonkatastrofeille	luonnon#katastrofi	NOUN	_	Case=All|Number=Plur	6	nmod	6:nmod	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	10:punct	_
 9	kuten	kuten	ADV	_	_	10	advmod	10:advmod	_
 10	tulville	tulva	NOUN	_	Case=All|Number=Plur	7	appos	7:appos	SpaceAfter=No
@@ -15639,7 +15639,7 @@
 1	Vuoden	vuosi	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	3:nmod:poss	_
 2	1980	1980	NUM	_	NumType=Card	1	nummod	1:nummod	_
 3	presidentinvaalikampanja	presidentin#vaali#kampanja	NOUN	_	Case=Nom|Number=Sing	11	obj	11:obj	_
-4	Reaganin	Reagan	PROPN	_	Case=Gen|Number=Sing	3	obl	3:obl	_
+4	Reaganin	Reagan	PROPN	_	Case=Gen|Number=Sing	11	obl	11:obl	_
 5	ja	ja	CCONJ	_	_	8	cc	8:cc	_
 6	istuvan	istua	VERB	_	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	8	acl	8:acl	_
 7	presidentti	presidentti	NOUN	_	Case=Nom|Number=Sing	8	compound:nn	8:compound:nn	_
